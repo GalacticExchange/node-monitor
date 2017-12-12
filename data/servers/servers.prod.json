@@ -1,0 +1,3 @@
+{
+  "monitor": {"type": "local", "host": "localhost", "user": "user", "password": "password"}
+}

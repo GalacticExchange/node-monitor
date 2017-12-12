@@ -1,0 +1,5 @@
+{
+  "tc_aws_agent": {"type": "local", "host": "localhost", "user": "", "password": ""}
+  ,"monitor": {"type": "local", "host": "localhost", "user": "user", "password": "password"}
+
+}

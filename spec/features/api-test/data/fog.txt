@@ -1,0 +1,4 @@
+{
+  "key_id": "AKIAJIR6QGWWQUSGCG3A",
+  "secret_key": "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"
+}
