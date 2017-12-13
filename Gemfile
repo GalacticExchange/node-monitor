@@ -32,7 +32,7 @@ gem 'capybara', '2.10.1'
 #gem "capybara-webkit"
 gem 'selenium-webdriver', '3.0.3'
 
-gem 'test_email_redis', '0.0.3'
+#gem 'test_email_redis', '0.0.3'
 
 gem 'capistrano',  '3.7.1'
 #gem 'capistrano',  '3.4.0'
