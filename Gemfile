@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails'
+#gem 'rails'
 gem 'redis'
 gem 'httparty'
 gem 'net-ssh'
