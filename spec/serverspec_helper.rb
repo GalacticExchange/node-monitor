@@ -10,7 +10,8 @@ require_relative 'support/helpers/docker_helpers'
 current_dir = File.dirname(__FILE__)
 
 # config
-$gex_env ||= ENV['gex_env']
+#$gex_env ||= ENV['gex_env']
+$gex_env ||= 'main'
 
 #
 $hostname = ENV['HOSTNAME'] || ENV['server']

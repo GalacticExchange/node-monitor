@@ -135,6 +135,7 @@ namespace :serverspec do
       puts "props=#{props.inspect}"
 
       #
+      t.rspec_opts = %w[-f JUnit -o results.xml]
       t.pattern = "spec/servers/#{hostname}/#{spec_name}_spec.rb"
       #t.pattern = "spec/servers/{base,#{host}}/*_spec.rb"
 
