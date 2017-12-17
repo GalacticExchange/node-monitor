@@ -7,12 +7,12 @@ require 'spec_helper'
 
 ##
 API_IP = '46.172.71.54'
-IPs = ['46.172.71.53', '46.172.71.54', '46.172.71.59', '8.8.8.8']
+IPs = ['46.172.71.53', '46.172.71.54', '35.164.247.179', '8.8.8.8']
 
-describe '-Monitoring nodes-' do
+describe 'Pinging nodes' do
   IPs.each {|e|
     describe host(e) do
-      it "is reachable by Ping" do should be_reachable end
+      it { should be_reachable }
     end
   }
   # describe host(API_IP) do
