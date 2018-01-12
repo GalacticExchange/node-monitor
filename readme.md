@@ -1,4 +1,4 @@
-# line was modified for testing Jenkins trigger
+# this line was modified for testing Jenkins trigger
 # Install
 
 bundle install
